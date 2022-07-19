@@ -61,7 +61,7 @@ func GeneratePresignedURL(c echo.Context, bucket string, key string) error {
 
 func GeneratingURL(c echo.Context) error {
 
-	GeneratePresignedURL(c, "testbucket5u3920", "audio.mp3")
+	GeneratePresignedURL(c, "testbucket5u3920", "file.mp3")
 
 	return c.String(http.StatusOK, "")
 }
