@@ -20,7 +20,7 @@ function startCounting(){
         if (T < 2){
           GetAudio();
         }
-        if (T > 50){
+        if (T > 300){
           localStorage.clear();
         }
     },1000);
